@@ -3,50 +3,51 @@
   <head>
     <title>Types of jazz groups</title>
     <meta charset="utf-8">
+    <style>
+    a {
+      color: black;
+      text-decoration:none;
+    }
+    h1 {
+      font-size: 45px;
+      text-align: center;
+      border-bottom: 1px solid gray;
+      margin: 0px;
+      padding: 20px;
+    }
+    #grid ul {
+      border-right: gray 1px solid;
+      width: 110px;
+      margin: 0px;
+      padding: 20px 33px 20px 20px;
+    }
+    #grid {
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid #article {
+      padding-left: 35px;
+    }
+    </style>
   </head>
 
   <body>
     <h1><a href="index.html">Types of jazz groups</a></h1>
-    <ul>
-      <li><a href="1_jazztrio.html">Jazz trio</a></li>
-      <li><a href="2_jazzquartet.html">Jazz Quartet</a></li>
-      <li><a href="3_jazzquintet.html">Jazz Quintet</a></li>
-    </ul>
-    
-    <h1 style="text-align:center;">Jazz Trio</h1>
-      <p style="text-align:center;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dH3GSrCmzC8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-      </p>
-      <p>A jazz trio is a group of <strong>three jazz musicians</strong>, often a <u>piano trio comprising a pianist</u>, a double bass player and a drummer. The pianist is usually considered the leader of these trios, and trios are usually named after their pianist. Famous examples include the <a href="https://en.wikipedia.org/wiki/Bill_Evans" target="_blank" title="who is Bill evans">Bill Evans</a> Trio with Scott LaFaro on bass and Paul Motian on drums; and the Vince Guaraldi trio, featuring Fred Marshall and Jerry Granelli.</p>
-
-      <p style="text-align:center;"><img src="https://2.bp.blogspot.com/-l3JspWFQCI0/V0YaZphDdQI/AAAAAAAB2EI/EvAExy-CvKUivuHWicJjtzScfl2rXu24wCLcB/s1600/Bill%2BEvans%2B-%2BInside%2Bthe%2BNew%2BTrio%2BDB%2B1962%2B002.jpg" width="700"></p>
-
-      <p style="margin-top:50px;"><a href="https://en.wikipedia.org/wiki/Nat_King_Cole" target="_blank" title="who is Nat King Cole?">Nat King Cole</a> formed a piano-guitar-bass trio in 1937 when he relocated to Los Angeles. This format was also used by Art Tatum, Lennie Tristano, Ahmad Jamal, Vince Guaraldi, and Oscar Peterson. Tristano, Jamal, Guaraldi, and Peterson all later led trios with the traditional format of piano, bass, and drums.</p>
-
-      <p>Another fairly common variant is the organ trio, comprising electric organ (typically a Hammond B-3), drums, and usually electric guitar. The bassist is excluded, and the organist instead plays the bassline with his or her left hand (on a keyboard) or their feet (on the bass pedalboard). Organists Jimmy Smith and Jack McDuff and guitarists Grant Green and Wes Montgomery are among the musicians who have worked in this format. The original line-up of the Tony Williams Lifetime featured Williams (drums); John McLaughlin (guitar); and Larry Young (organ).</p>
-
-      <p>
-        <div id="disqus_thread"></div>
-        <script>
-
-        /**
-        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-        /*
-        var disqus_config = function () {
-        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        */
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://typesofjazzgroups.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-      </p>
-
+    <div id="grid">
+      <ul>
+        <li><a href="1_jazztrio.html" style="color:red;">Jazz trio</a></li>
+        <li><a href="2_jazzquartet.html">Jazz Quartet</a></li>
+        <li><a href="3_jazzquintet.html">Jazz Quintet</a></li>
+      </ul>
+      <div id="article">
+        <h2>Jazz Trio</h2>
+          <p><iframe width="560" height="315" src="https://www.youtube.com/embed/dH3GSrCmzC8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          </p>
+          <p>A jazz trio is a group of <strong>three jazz musicians</strong>, often a <u>piano trio comprising a pianist</u>, a double bass player and a drummer. The pianist is usually considered the leader of these trios, and trios are usually named after their pianist. Famous examples include the <a href="https://en.wikipedia.org/wiki/Bill_Evans" target="_blank" title="who is Bill evans">Bill Evans</a> Trio with Scott LaFaro on bass and Paul Motian on drums; and the Vince Guaraldi trio, featuring Fred Marshall and Jerry Granelli.</p>
+          <p><img src="https://2.bp.blogspot.com/-l3JspWFQCI0/V0YaZphDdQI/AAAAAAAB2EI/EvAExy-CvKUivuHWicJjtzScfl2rXu24wCLcB/s1600/Bill%2BEvans%2B-%2BInside%2Bthe%2BNew%2BTrio%2BDB%2B1962%2B002.jpg" width="700"></p>
+          <p><a href="https://en.wikipedia.org/wiki/Nat_King_Cole" target="_blank" title="who is Nat King Cole?">Nat King Cole</a> formed a piano-guitar-bass trio in 1937 when he relocated to Los Angeles. This format was also used by Art Tatum, Lennie Tristano, Ahmad Jamal, Vince Guaraldi, and Oscar Peterson. Tristano, Jamal, Guaraldi, and Peterson all later led trios with the traditional format of piano, bass, and drums.</p>
+          <p>Another fairly common variant is the organ trio, comprising electric organ (typically a Hammond B-3), drums, and usually electric guitar. The bassist is excluded, and the organist instead plays the bassline with his or her left hand (on a keyboard) or their feet (on the bass pedalboard). Organists Jimmy Smith and Jack McDuff and guitarists Grant Green and Wes Montgomery are among the musicians who have worked in this format. The original line-up of the Tony Williams Lifetime featured Williams (drums); John McLaughlin (guitar); and Larry Young (organ).</p>
+        </div>
+      </div>
   </body>
 </html>
